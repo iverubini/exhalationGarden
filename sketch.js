@@ -83,25 +83,25 @@ function pincel() {
 function rect1() {
   
   fill(0, 50);
-  rect(wW/4, wH/4, 35 + wW/2, wH/2, 20);
+  //rect(wW/4, wH/4, 35 + wW/2, wH/2, 20);
   
   stroke(0);
   
-  textSize(18);
+  textSize(32);
   text('e̵̠͝x̶̄͜h̵͓̅a̵̠̒l̶͔͂e̴̻͗ ̵̬̉i̵̞̋n̵̰̄ ̶̝͐ǵ̸̣a̷̺̿r̷̘̾d̶͔̈́e̷̺̊n̴̮͒', 105 + wW/4, 35 + wH/4);
   
   textSize(12);
-  text('1. Authorize access to the microphone on your device.', 20 + wW/4, 75 + wH/4);
+  //text('1. Authorize access to the microphone on your device.', 20 + wW/4, 75 + wH/4);
   
-  text('2. Generate graphic shapes by breathing in, out or speaking.', 20 + wW/4, 100 + wH/4);
+  //text('2. Generate graphic shapes by breathing in, out or speaking.', 20 + wW/4, 100 + wH/4);
   
-  text('3. Touch screen to generate more sound-responsive graphics.', 20 + wW/4, 125 + wH/4);
+  //text('3. Touch screen to generate more sound-responsive graphics.', 20 + wW/4, 125 + wH/4);
   
   //text('4. Tap screen to generate further sound-responding graphics.', 20 + wW/4, 140 + wH/4);
   
   textSize(32);
   textStyle(BOLD);
-  text('DOUBLE TAP', 85 + wW/4, 195 + wH/4);
+  text('DOUBLE CLICK', 85 + wW/4, 195 + wH/4);
   
   textSize(32);
   textStyle(BOLD);
